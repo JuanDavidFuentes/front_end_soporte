@@ -1,19 +1,19 @@
 
 <template>
   <div class="mt-5">
-    <v-app-bar app flex color="blue" dark>
+    <v-app-bar app flex color="green" dark>
       <v-app-bar-nav-icon @click="drawer = true" v-if="$store.state.token !== ''"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>ApiPeliculas con Jholman</v-toolbar-title>
+      <v-toolbar-title dark>Soporte la perla</v-toolbar-title>
       <v-spacer></v-spacer>
 
-      <v-btn @click="salir()" class="white blue--text" v-if="$store.state.token !== ''">
+      <v-btn @click="salir()" class="white green--text" v-if="$store.state.token !== ''">
         salir
         <v-icon>mdi-door-open</v-icon>
       </v-btn>
     </v-app-bar>
 
-    <v-navigation-drawer temporary v-model="drawer" absolute color="blue">
+    <v-navigation-drawer temporary v-model="drawer" absolute color="green">
       <v-list>
         <v-list-item>
           <h1></h1>
