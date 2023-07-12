@@ -1,12 +1,12 @@
 
 <template>
-   <v-container class="fill-height" style="background-color: #ffe4b5;" fluid>
+   <v-container class="fill-height" fluid>
       <v-row align="center" justify="center">
          <v-col cols="12">
             <v-layout align-center justify-center>
                <v-flex xs12 sm8 md4>
                   <v-card class="elevation-12">
-                     <v-toolbar dark color="green">
+                     <v-toolbar dark color="#000000">
                         <v-toolbar-title>Inicio de sesion</v-toolbar-title>
                      </v-toolbar>
                      <v-card-text>
@@ -20,7 +20,7 @@
                      </v-card-text>
                      <v-card-actions>
                         <v-spacer></v-spacer>
-                        <v-btn color="green" @click=login() dark>Iniciar sesión</v-btn>
+                        <v-btn color="#000000" @click=login() dark>Iniciar sesión</v-btn>
                      </v-card-actions>
                   </v-card>
                </v-flex>
